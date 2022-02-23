@@ -64,11 +64,11 @@ public class KnightMovement : MonoBehaviour
         }
         else if (move != Vector3.zero && Input.GetKey(KeyCode.LeftShift)) //if the character is mpoving and the left shift key IS pressed, use the running speed
         {
-            Run(); //defined on line 82
+            Run(); //defined on line 83
         }
         else if(move == Vector3.zero) //if the character is not moving, stand in idle
         {
-            Idle(); //defined on line 88
+            Idle(); //defined on line 89
         }
 
     }
